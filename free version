@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnPro – Free</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>LearnPro – Free</h1>
+        <p>Access free lessons, supported by ads.</p>
+    </header>
+    <div class="ad-banner">Ad Space</div>
+    <main>
+        <ul>
+            <li>📚 Math Basics</li>
+            <li>🌎 World History Overview</li>
+            <li>🧪 Intro to Chemistry</li>
+            <li>💻 Basic Coding</li>
+        </ul>
+    </main>
+    <footer>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </footer>
+</body>
+</html>
