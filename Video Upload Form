@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload a Lesson – LearnPro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Upload Your Lesson</h1>
+    </header>
+    <main>
+        <form>
+            <label for="title">Lesson Title:</label>
+            <input type="text" id="title" placeholder="Enter lesson title" required>
+
+            <label for="file">Video File:</label>
+            <input type="file" id="file" accept="video/*" required>
+
+            <label for="desc">Description:</label>
+            <textarea id="desc" placeholder="Brief description" required></textarea>
+
+            <button type="submit" onclick="alert('Upload submitted for review!')">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </footer>
+</body>
+</html>
