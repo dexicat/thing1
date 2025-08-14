@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnPro – Premium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>LearnPro – Premium</h1>
+        <p>No ads, exclusive lessons, and priority support.</p>
+    </header>
+    <main>
+        <ul>
+            <li>📚 Advanced Mathematics</li>
+            <li>🌎 Global Economics</li>
+            <li>🧪 Organic Chemistry</li>
+            <li>💻 Full-Stack Web Development</li>
+        </ul>
+    </main>
+    <footer>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </footer>
+</body>
+</html>
